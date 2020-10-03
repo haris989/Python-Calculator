@@ -13,8 +13,11 @@ def multiply(num1, num2):
 	return num1 * num2 
 
 #divide two numbers 
-def divide(num1, num2): 
-	return num1 / num2 
+def divide(num1, num2):
+    if num2!=0:
+	    return num1 / num2 
+    else:
+	    return 'Not Defined'
 
 print("Please select operation -\n"
 		"1. Add\n"
