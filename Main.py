@@ -1,4 +1,4 @@
-import time
+from time import sleep
 
 #add two numbers 
 def add(num1, num2): 
@@ -32,22 +32,18 @@ number_2 = int(input("Enter second number: "))
 if select == '1': 
 	print(number_1, "+", number_2, "=", 
 					add(number_1, number_2))
-	time.sleep(5) #to show the results for 5 seconds before the program exits!
 
 elif select == '2': 
 	print(number_1, "-", number_2, "=", 
 					subtract(number_1, number_2)) 
-	time.sleep(5) #to show the results for 5 seconds before the program exits!
 
 elif select == '3': 
 	print(number_1, "*", number_2, "=", 
 					multiply(number_1, number_2)) 
-	time.sleep(5) #to show the results for 5 seconds before the program exits!
 
 elif select == '4': 
 	print(number_1, "/", number_2, "=", 
 					divide(number_1, number_2)) 
-	time.sleep(5) #to show the results for 5 seconds before the program exits!
 else: 
 	print("Syntax Error!") 
-	time.sleep(5) #to show the results for 5 seconds before the program exits!
+sleep(5) #to show the results for 5 seconds before the program exits!
