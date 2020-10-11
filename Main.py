@@ -25,7 +25,7 @@ print("Please select operation -\n"
 
 # Taking input from the user 
 select = input("Select operations form 1, 2, 3, 4 :") 
-
+#number_1 and number_2 takes input of first and second number
 number_1 = int(input("Enter first number: ")) 
 number_2 = int(input("Enter second number: ")) 
 
@@ -49,5 +49,5 @@ elif select == '4':
 					divide(number_1, number_2)) 
 	time.sleep(5) #to show the results for 5 seconds before the program exits!
 else: 
-	print("Syntax Error!") 
+	print(" Some Error Occured!") 
 	time.sleep(5) #to show the results for 5 seconds before the program exits!
