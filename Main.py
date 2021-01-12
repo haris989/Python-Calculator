@@ -31,7 +31,7 @@ print("Please select operation -\n"
 
 
 # Taking input from the user 
-select = input("Select operations form 1, 2, 3, 4, 5 :")
+select = input("Select operations ranging form 1, 2, 3, 4, 5 :")
 if select == '5':
     n = int(input("Enter the desired number: "))
     print(n,'! = ', fact(n))
