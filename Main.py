@@ -14,17 +14,30 @@ def multiply(num1, num2):
 
 #divide two numbers 
 def divide(num1, num2): 
-	return num1 / num2 
+	return num1 / num2
 
-print("Please select operation -\n"
-		"1. Add\n"
-		"2. Subtract\n" 
-		"3. Multiply\n"
-		"4. Divide\n") 
+#print("Please select operation -\n"
+#		"1. Add\n"
+#		"2. Subtract\n" 
+#		"3. Multiply\n"
+#		"4. Divide
+#		"\n") 
 
 
 # Taking input from the user 
-select = input("Select operations form 1, 2, 3, 4 :") 
+#select = input("Select operations form 1, 2, 3, 4 :") 
+
+# Displaying the menu to the user and asking for the input
+select = input("""
+	Python Calculator
+
+Choose any of the options below :
+[1] Add
+[2] Subtract
+[3] Multiply
+[4] Divide
+
+Enter your choice : """)
 
 number_1 = int(input("Enter first number: ")) 
 number_2 = int(input("Enter second number: ")) 
